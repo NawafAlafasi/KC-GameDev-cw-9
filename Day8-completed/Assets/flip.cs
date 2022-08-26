@@ -56,11 +56,4 @@ public class flip : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "enemy") 
-        {
-            SceneManager.LoadScene(0);
-        }
-    }
 }
